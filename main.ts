@@ -19,15 +19,18 @@ neopixelStrip.show()
 input.onButtonPressed(Button.A, function () {
     //Green
     neopixelStrip.setPixelColor(0, neopixel.colors(NeoPixelColors.Green))
-    pause(1000)
+    neopixelStrip.show()
+    pause(2000)
     neopixelStrip.setPixelColor(0, neopixel.colors(NeoPixelColors.Black))
     //Yellow
     neopixelStrip.setPixelColor(1, neopixel.colors(NeoPixelColors.Yellow))
-    pause(1000)
+    neopixelStrip.show()
+    pause(2000)
     neopixelStrip.setPixelColor(1, neopixel.colors(NeoPixelColors.Black))
     //Red
     neopixelStrip.setPixelColor(2, neopixel.colors(NeoPixelColors.Red))
-    pause(1000)
+    neopixelStrip.show()
+    pause(2000)
     neopixelStrip.setPixelColor(2, neopixel.colors(NeoPixelColors.Black))
     neopixelStrip.show()
 })
