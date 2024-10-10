@@ -15,6 +15,7 @@ neopixelStrip.setPixelColor(0, neopixel.colors(NeoPixelColors.Black))
 neopixelStrip.setPixelColor(1, neopixel.colors(NeoPixelColors.Black))
 neopixelStrip.setPixelColor(2, neopixel.colors(NeoPixelColors.Black))
 neopixelStrip.show()
+basic.showIcon(IconNames.Happy)
 
 input.onButtonPressed(Button.A, function () {
     //Green
